@@ -1,0 +1,16 @@
+name: 'Cascade'
+description: 'Cascade to other repositories'
+inputs:
+  token:
+    description: The GitHub api token used to commit to the cascading repositories
+    required: true
+  version:
+    description: The version that triggered that cascades
+    required: true
+  cascades:
+    description: A comma separated list of the owner/repo GitHub repositories that should be cascaded
+    required: true
+  
+runs:
+  using: 'node12'
+  main: 'release/index.js'
