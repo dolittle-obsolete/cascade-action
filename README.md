@@ -1,7 +1,7 @@
 # GitHub Action - Cascades
 This GitHub action cascades releases to other repositories 
 
-![Github JavaScript Actions CI/CD](https://github.com/dolittle/repository-here/workflows/Github%20JavaScript%20Actions%20CI/CD/badge.svg)
+![Github JavaScript Actions CI/CD](https://github.com/dolittle/cascade-action/workflows/Github%20JavaScript%20Actions%20CI/CD/badge.svg)
 
 ### Pre requisites
 Create a workflow `.yml` file in your `.github/workflows` directory. An [example workflow](#example-workflow) is available below.
